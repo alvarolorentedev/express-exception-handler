@@ -9,4 +9,7 @@ describe('test the index exports', () => {
         expect(index.middleware).not.toBeUndefined()
     })
 
+    test('has default wrap exported', async () => {
+        expect(index.wrap).not.toBeUndefined()
+    })
 })
