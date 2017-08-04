@@ -12,4 +12,8 @@ describe('test the index exports', () => {
     test('has default wrap exported', async () => {
         expect(index.wrap).not.toBeUndefined()
     })
+
+    test('has default wrap exported', async () => {
+        expect(index.handle).not.toBeUndefined()
+    })
 })
