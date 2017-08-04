@@ -1,0 +1,25 @@
+{
+  "name": "express-exception-handler",
+  "version": "0.0.1",
+  "description": "a top level exception handle package",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kanekotic/express-exception-handler.git"
+  },
+  "keywords": [
+    "exception",
+    "express",
+    "middleware",
+    "handler"
+  ],
+  "author": "kanekotic",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kanekotic/express-exception-handler/issues"
+  },
+  "homepage": "https://github.com/kanekotic/express-exception-handler#readme"
+}
