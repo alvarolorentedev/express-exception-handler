@@ -1,0 +1,8 @@
+language: node_js
+sudo: false
+
+install:
+- yarn install
+
+script:
+- yarn test:cov
