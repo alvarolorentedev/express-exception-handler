@@ -2,9 +2,11 @@
   "name": "express-exception-handler",
   "version": "0.0.1",
   "description": "a top level exception handle package",
-  "main": "index.js",
+  "main": "lib/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest",
+    "test:dev": "jest --watchAll",
+    "test:cov": "jest --coverage"
   },
   "repository": {
     "type": "git",
@@ -13,13 +15,28 @@
   "keywords": [
     "exception",
     "express",
+    "expressjs",
     "middleware",
-    "handler"
+    "handler",
+    "async/await",
+    "async",
+    "await",
+    "es6"
   ],
   "author": "kanekotic",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/kanekotic/express-exception-handler/issues"
   },
-  "homepage": "https://github.com/kanekotic/express-exception-handler#readme"
+  "homepage": "https://github.com/kanekotic/express-exception-handler#readme",
+  "devDependencies": {
+    "jest": "^20.0.4"
+  },
+  "jest": {
+    "testMatch": [
+      "**/test/**/*-test.js"
+    ],
+    "testEnvironment": "node",
+    "automock": false
+  }
 }
