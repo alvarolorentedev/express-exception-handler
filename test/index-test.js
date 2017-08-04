@@ -1,8 +1,12 @@
 const index = require('../lib/index')
 
 describe('test the index exports', () => {
-    test('has exeption exported', async () => {
+    test('has exception exported', async () => {
         expect(index.exception).not.toBeUndefined()
+    })
+
+    test('has default middleware exported', async () => {
+        expect(index.middleware).not.toBeUndefined()
     })
 
 })
