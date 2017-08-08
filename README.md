@@ -30,7 +30,7 @@ it also integrates an extended class from Error that contains a `message` and a 
 ```js
 var httpError = require('express-exception-handler').exception
 router.post('/', async (req, res) => {
-    throw new HttpError('Great Message', 400)
+    throw new HttpError('Great Message', 400, "{Response: awesome}")
 }))
 ```
 

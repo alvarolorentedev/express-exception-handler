@@ -16,4 +16,19 @@ describe('test the custom exception', () => {
         var ex = new exception()
         expect(ex.name).not.toBeUndefined()
     })
+
+    test(' exceptios has undefined response', async () => {
+        var ex = new exception()
+        expect(ex.response).toBeUndefined()
+    })
+
+    test('exceptios set parameter', async () => {
+        var response = "a response"
+        var status = 400
+        var message = "some message"
+        var ex = new exception(message, status, response)
+        expect(ex.status).toBe(status)
+        expect(ex.response).toBe(response)
+        expect(ex.message).toBe(message)
+    })
 })
