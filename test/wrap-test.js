@@ -2,11 +2,11 @@ const wrap = require('../lib/wrap')
 const err = require('../lib/custom-exception')
 describe('test the handle', () => {
     test('wrap empty reject', async () => {
-        var func = jest.fn(() => Promise.reject())
+        var func = jest.fn(() => Promise.reject("something"))
         var next = jest.fn()
         var result = await wrap(func)(undefined,undefined,next)
         expect(next.mock.calls.length).toBe(1)
-        expect(next.mock.calls[0][0].message).toBe("Unknown Exception")
+        expect(next.mock.calls[0][0].message).toBe("something")
         expect(next.mock.calls[0][0].status).toBe(500)
     })
 
@@ -15,16 +15,16 @@ describe('test the handle', () => {
         var next = jest.fn()
         var result = await wrap(func)(undefined,undefined,next)
         expect(next.mock.calls.length).toBe(1)
-        expect(next.mock.calls[0][0].message).toBe("Unknown Exception")
+        expect(next.mock.calls[0][0].message).toBe("something")
         expect(next.mock.calls[0][0].status).toBe(500)
     })
 
     test('wrap throw general exception', async () => {
-        var func = jest.fn(() => {throw new Error("")})
+        var func = jest.fn(() => {throw new Error("Something")})
         var next = jest.fn()
         var result = await wrap(func)(undefined,undefined,next)
         expect(next.mock.calls.length).toBe(1)
-        expect(next.mock.calls[0][0].message).toBe("Unknown Exception")
+        expect(next.mock.calls[0][0].message).toBe("Error: Something")
         expect(next.mock.calls[0][0].status).toBe(500)
     })
 
