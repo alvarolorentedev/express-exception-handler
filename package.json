@@ -36,6 +36,7 @@
   },
   "homepage": "https://github.com/kanekotic/express-exception-handler#readme",
   "devDependencies": {
+    "coveralls": "3.0.2",
     "jest": "^20.0.4"
   },
   "jest": {
