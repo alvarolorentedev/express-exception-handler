@@ -1,5 +1,7 @@
 # ![logomakr_6nl700](https://user-images.githubusercontent.com/3071208/28988724-97dc463a-7971-11e7-9cec-ffc06bcc9205.png)
 
+[![Coverage Status](https://coveralls.io/repos/github/kanekotic/express-exception-handler/badge.svg?branch=master)](https://coveralls.io/github/kanekotic/express-exception-handler?branch=master)
+
 ## Motivation
 This package was created to add a general way to handle exception for express application with the expectation to make it simpler to handle all possible requests.
 
