@@ -1,14 +1,9 @@
+os: osx
 language: node_js
-sudo: false
-node_js:
-  - "7"
-
-install:
-- yarn install
-
 script:
-- yarn test:cov
-
+  - yarn test:cov
+after_success:
+  - if [[ "${TRAVIS_EVENT_TYPE}" = "cron" ]]; then ./upgrade.sh; fi
 deploy:
   skip_cleanup: true
   provider: npm
