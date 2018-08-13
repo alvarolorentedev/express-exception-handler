@@ -29,13 +29,14 @@ describe('test the handle', () => {
     })
 
     test('wrap not empty reject', async () => {
-        var error = new err("error local",400)
+        var error = new err("error local",400, "some cause")
         var func = jest.fn(() => Promise.reject(error))
         var next = jest.fn()
         var result = await wrap(func)(undefined,undefined,next)
         expect(next.mock.calls.length).toBe(1)
         expect(next.mock.calls[0][0].message).toBe(error.message)
         expect(next.mock.calls[0][0].status).toBe(error.status)
+        expect(next.mock.calls[0][0].response).toBe(error.response)
     })
 
 })
