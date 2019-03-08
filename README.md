@@ -1,6 +1,6 @@
 # ![logomakr_6nl700](https://user-images.githubusercontent.com/3071208/28988724-97dc463a-7971-11e7-9cec-ffc06bcc9205.png)
 [![Build Status](https://travis-ci.org/kanekotic/express-exception-handler.svg?branch=master)](https://travis-ci.org/kanekotic/express-exception-handler)
-[![Coverage Status](https://coveralls.io/repos/github/kanekotic/express-exception-handler/badge.svg?branch=master)](https://coveralls.io/github/kanekotic/express-exception-handler?branch=master)
+[![codecov](https://codecov.io/gh/kanekotic/express-exception-handler/branch/master/graph/badge.svg)](https://codecov.io/gh/kanekotic/express-exception-handler)
 [![npm](https://img.shields.io/npm/dt/express-exception-handler.svg)](https://github.com/kanekotic/express-exception-handler)
 [![GitHub license](https://img.shields.io/github/license/kanekotic/express-exception-handler.svg)](https://github.com/kanekotic/express-exception-handler/blob/master/LICENSE)
 [![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://GitHub.com/kanekotic/express-exception-handler/graphs/commit-activity)

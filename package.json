@@ -6,7 +6,7 @@
   "scripts": {
     "test": "jest",
     "test:dev": "jest --watchAll",
-    "test:cov": "jest --coverage && cat ./coverage/lcov.info | ./node_modules/coveralls/bin/coveralls.js",
+    "test:cov": "jest --coverage && codecov",
     "push": "yarn test && git push",
     "deploy:major": "yarn version --major",
     "deploy:minor": "yarn version --minor",
@@ -36,7 +36,7 @@
   },
   "homepage": "https://github.com/kanekotic/express-exception-handler#readme",
   "devDependencies": {
-    "coveralls": "3.0.3",
+    "codecov": "3.2.0",
     "jest": "24.3.1"
   },
   "jest": {
