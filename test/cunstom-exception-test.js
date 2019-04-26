@@ -31,4 +31,10 @@ describe('test the custom exception', () => {
         expect(ex.response).toBe(response)
         expect(ex.message).toBe(message)
     })
+
+    test('exception inherits stack trace if an error is provided', () => {
+        var originalError = new Error('oops')
+        var ex = new exception(originalError)
+        expect(ex.stack).toBe(originalError.stack)
+    })
 })
