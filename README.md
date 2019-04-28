@@ -1,4 +1,5 @@
 # ![logomakr_6nl700](https://user-images.githubusercontent.com/3071208/28988724-97dc463a-7971-11e7-9cec-ffc06bcc9205.png)
+[![All Contributors](https://img.shields.io/badge/all_contributors-1-orange.svg?style=flat-square)](#contributors)
 [![Build Status](https://travis-ci.org/kanekotic/express-exception-handler.svg?branch=master)](https://travis-ci.org/kanekotic/express-exception-handler)
 [![codecov](https://codecov.io/gh/kanekotic/express-exception-handler/branch/master/graph/badge.svg)](https://codecov.io/gh/kanekotic/express-exception-handler)
 [![npm](https://img.shields.io/npm/dt/express-exception-handler.svg)](https://github.com/kanekotic/express-exception-handler)
@@ -51,3 +52,14 @@ app.use(middleware)
 ### Logo
 
 Arrows graphic by <a href="http://www.flaticon.com/authors/madebyoliver">madebyoliver</a> from <a href="http://www.flaticon.com/">Flaticon</a> is licensed under <a href="http://creativecommons.org/licenses/by/3.0/" title="Creative Commons BY 3.0">CC BY 3.0</a>. Check out the new logo that I created on <a href="http://logomakr.com" title="Logo Maker">LogoMaker.com</a> https://logomakr.com/6nL7006nL700
+## Contributors
+
+Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/docs/en/emoji-key)):
+
+<!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
+<!-- prettier-ignore -->
+<table><tr><td align="center"><a href="http://www.bradreed.co.uk"><img src="https://avatars2.githubusercontent.com/u/627654?v=4" width="100px;" alt="Brad Reed"/><br /><sub><b>Brad Reed</b></sub></a><br /><a href="https://github.com/kanekotic/express-exception-handler/commits?author=noisyscanner" title="Code">💻</a></td></tr></table>
+
+<!-- ALL-CONTRIBUTORS-LIST:END -->
+
+This project follows the [all-contributors](https://github.com/all-contributors/all-contributors) specification. Contributions of any kind welcome!
