@@ -1,6 +1,6 @@
 {
   "name": "express-exception-handler",
-  "version": "1.1.21",
+  "version": "1.1.22",
   "description": "a top level exception handle package",
   "main": "lib/index.js",
   "scripts": {
