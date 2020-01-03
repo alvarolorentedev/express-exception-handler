@@ -39,6 +39,35 @@ describe('test the handle', () => {
         expect(next.mock.calls[0][0].response).toBe(error.response)
     })
 
+    test('wrap default res json sync', async () => {
+        var resObject = { ok: true }
+        var func = (req, res) => resObject // accepts exactly 2 params
+        var next = jest.fn()
+        var resJson = jest.fn()
+        await wrap(func, { defaultJsonResponse: true })(undefined, { json: resJson }, next)
+        expect(next.mock.calls.length).toBe(0)
+        expect(resJson.mock.calls[0][0]).toBe(resObject)
+    })
+
+    test('wrap default res json async', async () => {
+        var resObject = { ok: true }
+        var func = async (req, res) => resObject // accepts exactly 2 params
+        var next = jest.fn()
+        var resJson = jest.fn()
+        await wrap(func, { defaultJsonResponse: true })(undefined, { json: resJson }, next)
+        expect(next.mock.calls.length).toBe(0)
+        expect(resJson.mock.calls[0][0]).toBe(resObject)
+    })
+
+    test('wrap default res json not called on primitives', async () => {
+        var func = async (req, res) => 5 // accepts exactly 2 params
+        var next = jest.fn()
+        var resJson = jest.fn()
+        await wrap(func, { defaultJsonResponse: true })(undefined, { json: resJson }, next)
+        expect(next.mock.calls.length).toBe(0)
+        expect(resJson.mock.calls.length).toBe(0)
+    })
+
     test('wrap next once enabled', async () => {
         var func = jest.fn((req, res, next) => {
             next("something1") // This direct call will not be wrapped with AppError
