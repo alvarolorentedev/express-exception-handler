@@ -8,5 +8,6 @@ describe('test handle', () => {
         var stubHandle = () => {}
         Layer.prototype.handle = stubHandle
         expect(Layer.prototype.handle).toBe(Layer.prototype.__handle)
+        handle() // call again to check there are no exceptions
     })
 })
