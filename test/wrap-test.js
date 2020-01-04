@@ -39,4 +39,27 @@ describe('test the handle', () => {
         expect(next.mock.calls[0][0].response).toBe(error.response)
     })
 
+    test('wrap next once enabled', async () => {
+        var func = jest.fn((req, res, next) => {
+            next("something1") // This direct call will not be wrapped with AppError
+            return Promise.reject("something2")
+        })
+        var next = jest.fn()
+        var result = await wrap(func)(undefined,undefined,next)
+        expect(next.mock.calls.length).toBe(1)
+        expect(next.mock.calls[0][0]).toBe("something1")
+    })
+
+    test('wrap next once disabled', async () => {
+        var func = jest.fn((req, res, next) => {
+            next("something1") // This direct call will not be wrapped with AppError
+            return Promise.reject("something2")
+        })
+        var next = jest.fn()
+        var result = await wrap(func, { nextOnce: false })(undefined,undefined,next)
+        expect(next.mock.calls.length).toBe(2)
+        expect(next.mock.calls[0][0]).toBe("something1")
+        expect(next.mock.calls[1][0].message).toBe("something2")
+        expect(next.mock.calls[1][0].status).toBe(500)
+    })
 })
