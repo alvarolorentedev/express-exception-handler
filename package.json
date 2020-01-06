@@ -30,6 +30,10 @@
     "es6"
   ],
   "author": "kanekotic",
+  "contributors": [
+    "Brad Reed (http://www.bradreed.co.uk)",
+    "Oren Zomer (https://github.com/ozomer)"
+  ],
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/kanekotic/express-exception-handler/issues"
