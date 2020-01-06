@@ -57,9 +57,17 @@ Arrows graphic by <a href="http://www.flaticon.com/authors/madebyoliver">madebyo
 Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/docs/en/emoji-key)):
 
 <!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
-<!-- prettier-ignore -->
-<table><tr><td align="center"><a href="http://www.bradreed.co.uk"><img src="https://avatars2.githubusercontent.com/u/627654?v=4" width="100px;" alt="Brad Reed"/><br /><sub><b>Brad Reed</b></sub></a><br /><a href="https://github.com/kanekotic/express-exception-handler/commits?author=noisyscanner" title="Code">💻</a></td></tr></table>
+<!-- prettier-ignore-start -->
+<!-- markdownlint-disable -->
+<table>
+  <tr>
+    <td align="center"><a href="http://www.bradreed.co.uk"><img src="https://avatars2.githubusercontent.com/u/627654?v=4" width="100px;" alt=""/><br /><sub><b>Brad Reed</b></sub></a><br /><a href="https://github.com/kanekotic/express-exception-handler/commits?author=noisyscanner" title="Code">💻</a></td>
+    <td align="center"><a href="https://github.com/ozomer"><img src="https://avatars1.githubusercontent.com/u/1161260?v=4" width="100px;" alt=""/><br /><sub><b>Oren Zomer</b></sub></a><br /><a href="https://github.com/kanekotic/express-exception-handler/commits?author=ozomer" title="Code">💻</a></td>
+  </tr>
+</table>
 
+<!-- markdownlint-enable -->
+<!-- prettier-ignore-end -->
 <!-- ALL-CONTRIBUTORS-LIST:END -->
 
 This project follows the [all-contributors](https://github.com/all-contributors/all-contributors) specification. Contributions of any kind welcome!
