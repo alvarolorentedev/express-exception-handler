@@ -49,6 +49,20 @@ const app = require('express')()
 app.use(middleware)
 ```
 
+### Options
+
+The `handle` and the `wrap` function allow configuration parameters to be passed. The default is:
+
+```js
+{
+  nextOnce: true,
+  defaultJsonResponse: false,
+}
+```
+
+* nextOnce: makes sure next can only be called once
+* defaultJsonResponse: runs `res.json` by default when the internally returned value is an object. 
+
 ### Logo
 
 Arrows graphic by <a href="http://www.flaticon.com/authors/madebyoliver">madebyoliver</a> from <a href="http://www.flaticon.com/">Flaticon</a> is licensed under <a href="http://creativecommons.org/licenses/by/3.0/" title="Creative Commons BY 3.0">CC BY 3.0</a>. Check out the new logo that I created on <a href="http://logomakr.com" title="Logo Maker">LogoMaker.com</a> https://logomakr.com/6nL7006nL700
