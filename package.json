@@ -41,7 +41,7 @@
   "homepage": "https://github.com/kanekotic/express-exception-handler#readme",
   "devDependencies": {
     "codecov": "3.6.5",
-    "jest": "25.5.2"
+    "jest": "26.0.1"
   },
   "jest": {
     "testMatch": [
