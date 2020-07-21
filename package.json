@@ -40,7 +40,7 @@
   },
   "homepage": "https://github.com/kanekotic/express-exception-handler#readme",
   "devDependencies": {
-    "codecov": "3.7.0",
+    "codecov": "3.7.1",
     "jest": "26.1.0"
   },
   "jest": {
