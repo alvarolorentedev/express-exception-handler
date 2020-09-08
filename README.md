@@ -15,7 +15,7 @@ add it to your project with `npm install express-exception-handler` or `yarn add
 
 
 ## Use
-there are 2 diferent ways to integrate the main functionality of this package, either by adding the handle that gets injected to the router framework
+there are 2 different ways to integrate the main functionality of this package, either by adding the handle that gets injected to the router framework
 
 ```js
 var exceptionHandler = require('express-exception-handler')
