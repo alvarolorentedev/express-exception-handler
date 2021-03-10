@@ -5,7 +5,6 @@
 [![npm](https://img.shields.io/npm/dt/express-exception-handler.svg)](https://github.com/kanekotic/express-exception-handler)
 [![GitHub license](https://img.shields.io/github/license/kanekotic/express-exception-handler.svg)](https://github.com/kanekotic/express-exception-handler/blob/master/LICENSE)
 [![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://GitHub.com/kanekotic/express-exception-handler/graphs/commit-activity)
-[![Donate](https://img.shields.io/badge/Donate-PayPal-green.svg)](https://www.paypal.me/kanekotic/)
 
 ## Motivation
 This package was created to add a general way to handle exception for express application with the expectation to make it simpler to handle all possible requests.
