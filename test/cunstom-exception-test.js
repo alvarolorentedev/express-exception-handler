@@ -12,12 +12,12 @@ describe('test the custom exception', () => {
         expect(ex.stack).not.toBeUndefined()
     })
 
-    test(' exceptios has name', async () => {
+    test('exceptios has name', async () => {
         var ex = new exception()
         expect(ex.name).not.toBeUndefined()
     })
 
-    test(' exceptios has undefined response', async () => {
+    test('exceptios has undefined response', async () => {
         var ex = new exception()
         expect(ex.response).toBeUndefined()
     })
@@ -25,11 +25,12 @@ describe('test the custom exception', () => {
     test('exceptios set parameter', async () => {
         var response = "a response"
         var status = 400
-        var message = "some message"
+        var message = Error("some message")
         var ex = new exception(message, status, response)
         expect(ex.status).toBe(status)
         expect(ex.response).toBe(response)
-        expect(ex.message).toBe(message)
+        expect(ex.message).toBe(message.toString())
+        expect(ex.originError).toBe(message)
     })
 
     test('exception inherits stack trace if an error is provided', () => {
