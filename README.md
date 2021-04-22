@@ -74,13 +74,15 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
 <!-- markdownlint-disable -->
 <table>
   <tr>
-    <td align="center"><a href="http://www.bradreed.co.uk"><img src="https://avatars2.githubusercontent.com/u/627654?v=4" width="100px;" alt=""/><br /><sub><b>Brad Reed</b></sub></a><br /><a href="https://github.com/kanekotic/express-exception-handler/commits?author=noisyscanner" title="Code">💻</a></td>
-    <td align="center"><a href="https://github.com/ozomer"><img src="https://avatars1.githubusercontent.com/u/1161260?v=4" width="100px;" alt=""/><br /><sub><b>Oren Zomer</b></sub></a><br /><a href="https://github.com/kanekotic/express-exception-handler/commits?author=ozomer" title="Code">💻</a></td>
+    <td align="center"><a href="http://www.bradreed.co.uk"><img src="https://avatars2.githubusercontent.com/u/627654?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Brad Reed</b></sub></a><br /><a href="https://github.com/kanekotic/express-exception-handler/commits?author=noisyscanner" title="Code">💻</a></td>
+    <td align="center"><a href="https://github.com/ozomer"><img src="https://avatars1.githubusercontent.com/u/1161260?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Oren Zomer</b></sub></a><br /><a href="https://github.com/kanekotic/express-exception-handler/commits?author=ozomer" title="Code">💻</a></td>
+    <td align="center"><a href="https://github.com/Nogias9x"><img src="https://avatars.githubusercontent.com/u/11822492?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Tu Nguyen</b></sub></a><br /><a href="#ideas-Nogias9x" title="Ideas, Planning, & Feedback">🤔</a></td>
   </tr>
 </table>
 
-<!-- markdownlint-enable -->
+<!-- markdownlint-restore -->
 <!-- prettier-ignore-end -->
+
 <!-- ALL-CONTRIBUTORS-LIST:END -->
 
 This project follows the [all-contributors](https://github.com/all-contributors/all-contributors) specification. Contributions of any kind welcome!
