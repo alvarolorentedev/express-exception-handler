@@ -31,7 +31,7 @@ router.post('/', wrap(async (req, res) => {
 }))
 ```
 
-it also integrates an extended class from Error that contains a `message` and a `status` that can be used to pass diferent information to the error handle
+it also integrates an extended class from Error that contains a `message` and a `status` that can be used to pass different information to the error handle
 
 ```js
 var httpError = require('express-exception-handler').exception
