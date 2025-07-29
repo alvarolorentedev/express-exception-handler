@@ -40,6 +40,15 @@
       "contributions": [
         "doc"
       ]
+    },
+    {
+      "login": "kleinron",
+      "name": "Ron Klein",
+      "avatar_url": "https://avatars.githubusercontent.com/u/1203923?v=4",
+      "profile": "http://ronklein.co.il",
+      "contributions": [
+        "doc"
+      ]
     }
   ],
   "contributorsPerLine": 7,
