@@ -79,6 +79,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
       <td align="center" valign="top" width="14.28%"><a href="https://github.com/ozomer"><img src="https://avatars1.githubusercontent.com/u/1161260?v=4?s=100" width="100px;" alt="Oren Zomer"/><br /><sub><b>Oren Zomer</b></sub></a><br /><a href="https://github.com/alvarolorentedev/express-exception-handler/commits?author=ozomer" title="Code">💻</a></td>
       <td align="center" valign="top" width="14.28%"><a href="https://github.com/Nogias9x"><img src="https://avatars.githubusercontent.com/u/11822492?v=4?s=100" width="100px;" alt="Tu Nguyen"/><br /><sub><b>Tu Nguyen</b></sub></a><br /><a href="#ideas-Nogias9x" title="Ideas, Planning, & Feedback">🤔</a></td>
       <td align="center" valign="top" width="14.28%"><a href="https://yangeok.github.io"><img src="https://avatars.githubusercontent.com/u/35530792?v=4?s=100" width="100px;" alt="Yangwook Ian Jeong"/><br /><sub><b>Yangwook Ian Jeong</b></sub></a><br /><a href="https://github.com/alvarolorentedev/express-exception-handler/commits?author=Yangeok" title="Documentation">📖</a></td>
+      <td align="center" valign="top" width="14.28%"><a href="http://ronklein.co.il"><img src="https://avatars.githubusercontent.com/u/1203923?v=4?s=100" width="100px;" alt="Ron Klein"/><br /><sub><b>Ron Klein</b></sub></a><br /><a href="https://github.com/alvarolorentedev/express-exception-handler/commits?author=kleinron" title="Documentation">📖</a></td>
     </tr>
   </tbody>
 </table>
