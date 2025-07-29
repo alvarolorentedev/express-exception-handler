@@ -31,12 +31,23 @@
       "contributions": [
         "ideas"
       ]
+    },
+    {
+      "login": "Yangeok",
+      "name": "Yangwook Ian Jeong",
+      "avatar_url": "https://avatars.githubusercontent.com/u/35530792?v=4",
+      "profile": "https://yangeok.github.io",
+      "contributions": [
+        "doc"
+      ]
     }
   ],
   "contributorsPerLine": 7,
   "projectName": "express-exception-handler",
-  "projectOwner": "kanekotic",
+  "projectOwner": "alvarolorentedev",
   "repoType": "github",
   "repoHost": "https://github.com",
-  "skipCi": true
+  "skipCi": true,
+  "commitType": "docs",
+  "commitConvention": "angular"
 }
